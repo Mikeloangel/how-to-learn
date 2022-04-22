@@ -1,4 +1,4 @@
-/* * {border: 1px dotted blue;}/**/
+ /* * {border: 1px dotted blue;}/**/
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -174,9 +174,12 @@
   gap: 60px 30px;
 }
 
+/*
+＼(￣▽￣)／ наконец-то красота, спасибо!)
+*/
 .table__cell {
   width: 250px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 0;
 }
 
