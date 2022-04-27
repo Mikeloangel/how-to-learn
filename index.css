@@ -29,9 +29,30 @@
 @import url(./blocks/table/__heading/table__heading.css);
 @import url(./blocks/table/__text/table__text.css);
 
+@import url(./blocks/feynman/feynman.css);
+@import url(./blocks/feynman/__title/feynman__title.css);
+@import url(./blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(./blocks/feynman/__link/feynman__link.css);
+
+@import url(./blocks/kaufman/kaufman.css);
+@import url(./blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(./blocks/section/__title/_theme/section-title_theme_dark.css);
+@import url(./blocks/section/__subtitle/theme/section-subtitle_theme_dark.css);
+@import url(./blocks/table/_theme/table_theme_dark.css);
+@import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__columns/footer__columns.css);
+@import url(./blocks/footer/__column/footer__column.css);
+@import url(./blocks/footer/__author/footer__author.css);
+@import url(./blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(./blocks/footer/__column-links/footer__column-links.css);
+@import url(./blocks/footer/__column-link/footer__column-link.css);
+@import url(./blocks/footer/__column-heading/footer__column-heading.css);
+@import url(./blocks/footer/__social-icon/footer__social-icon.css);
 
 /*VVV DELETE STYLE CSS WHEN EMPTY VVV*/
-@import url(./styles/style.css);/**/
+/*@import url(./styles/style.css);/**/
 /*^^^ DELETE STYLE CSS WHEN EMPTY ^^^*/
 
 * {border: 1px dotted blue;}/**/
