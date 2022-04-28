@@ -14,11 +14,11 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать</a>
+        <a href="#" class="header__link el-opaque">Узнать</a>
       </p>
 
       <img src="./images/header-image.png" class="header__main-illustration" alt="Опять двойка, научись учиться"/>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -42,6 +42,81 @@
           </div>
         </article>
       </section><!-- END description SECTION-->
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+
+        <div class="cards">
+          <div class="cards__item">
+            <img src="./images/cards-attention.png" class="cards__image" alt="Два вида внимания">
+            <h2 class="cards__title">Два вида внимания</h2>
+            <p class="cards__decsription">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </div>
+
+          <div class="cards__item">
+            <img src="./images/cards-recall.png" class="cards__image" alt="Recall">
+            <h2 class="cards__title">Recall</h2>
+            <p class="cards__decsription">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </div>
+
+          <div class="cards__item">
+            <img src="./images/cards-interliving.png" class="cards__image" alt="Интерливинг">
+            <h2 class="cards__title">Интерливинг</h2>
+            <p class="cards__decsription">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </div>
+
+          <div class="cards__item">
+            <img src="./images/cards-question.png" class="cards__image" alt="Вопросы">
+            <h2 class="cards__title">Вопросы</h2>
+            <p class="cards__decsription">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </div>
+
+          <div class="cards__item">
+            <img src="./images/cards-competence.png" class="cards__image" alt="Иллюзия компетентности">
+            <h2 class="cards__title">Иллюзия компетентности</h2>
+            <p class="cards__decsription">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </div>
+
+        </div>
+      </section>  <!-- END techniques SECTION-->
+
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <div class="video__iframe">
+           <iframe id="ytplayer" type="text/html"
+            width="515" height="316"
+            src="https://www.youtube.com/embed/arj7oStGLkU"
+            frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video__iframe">
+            <iframe id="ytplayer" type="text/html"
+            width="515" height="316"
+            src="https://www.youtube.com/embed/5MgBikgcWnY"
+            frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section> <!--END video SECTION-->
+
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+            </p>
+          </div>
+        </article>
+      </section>
+
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link el-opaque">Подробнее</a>
+      </section>
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -92,11 +167,22 @@
         </ul><!-- end: table -->
       </section><!-- END digits SECTION-->
 
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее</a>
-      </section>
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <p class="khan__quote">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
+            всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.jpg" class="khan__book-pic" alt="Обложка книги. Салман Хан: Весь мир – школп" >
+            <a href="" class="khan__buy-link el-opaque">Купить книгу</a>
+          </div>
+        </div>
+      </section><!-- END khan SECTION-->
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -145,9 +231,19 @@
           </li>
         </ul><!-- end: table -->
 
-        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="голубой треугольник">
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle rotation" alt="голубой треугольник">
       </section><!--END kaufman SECTION-->
 
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <div class="resources__logo-zone">
+          <a href="#" class="resources__link el-opaque"><img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас" class="resources__logo"></a>
+          <a href="#" class="resources__link el-opaque"><img src="./images/logo/resources-n1.svg" alt="Логотип N+1" class="resources__logo"></a>
+          <a href="#" class="resources__link el-opaque"><img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка" class="resources__logo"></a>
+          <a href="#" class="resources__link el-opaque"><img src="./images/logo/resources-polka.svg" alt="Логотип Полка" class="resources__logo"></a>
+        </div>
+      </section><!--END resources SECTION-->
     </main><!--END content SECTION-->
 
     <footer class="footer">
@@ -162,9 +258,9 @@
           <h3 class="footer__column-heading">О Практикуме</h3>
           <nav class="navigation">
             <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-link">Главная</a></li>
-              <li><a href="#" class="footer__column-link">Концепция</a></li>
-              <li><a href="#" class="footer__column-link">Наставники</a></li>
+              <li><a href="#" class="footer__column-link el-opaque">Главная</a></li>
+              <li><a href="#" class="footer__column-link el-opaque">Концепция</a></li>
+              <li><a href="#" class="footer__column-link el-opaque">Наставники</a></li>
             </ul>
           </nav>
         </div>
@@ -172,9 +268,9 @@
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Профиль в Фэйсбуке">Facebook</a></li>
-            <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" class="footer__social-icon" alt="Профиль ВКонтакте">ВКонтакте</a></li>
-            <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Профиль в Инстаграме">Instagram</a></li>
+            <li><a href="#" class="footer__column-link el-opaque"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Профиль в Фэйсбуке">Facebook</a></li>
+            <li><a href="#" class="footer__column-link el-opaque"><img src="./images/vk_color_white.svg" class="footer__social-icon" alt="Профиль ВКонтакте">ВКонтакте</a></li>
+            <li><a href="#" class="footer__column-link el-opaque"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Профиль в Инстаграме">Instagram</a></li>
           </ul>
         </div>
 

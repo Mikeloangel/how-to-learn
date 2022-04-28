@@ -1,0 +1,10 @@
+.el-opaque {
+  opacity: 1;
+}
+
+.el-opaque:hover {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
