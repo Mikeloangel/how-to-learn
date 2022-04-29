@@ -24,7 +24,7 @@
 @import url(./blocks/cards/__item/cards__item.css);
 @import url(./blocks/cards/__image/cards__image.css);
 @import url(./blocks/cards/__title/cards__title.css);
-@import url(./blocks/cards/__decription/cards__description.css);
+@import url(./blocks/cards/__description/cards__description.css);
 
 @import url(./blocks/video/video.css);
 @import url(./blocks/video/__iframes/video__iframes.css);
@@ -34,8 +34,8 @@
 
 @import url(./blocks/digits/digits.css);
 
-@import url(./blocks/section/__title/section__title.css);
-@import url(./blocks/section/__subtitle/section__subtitle.css);
+@import url(./blocks/section-title/section-title.css);
+@import url(./blocks/section-subtitle/section-subtitle.css);
 
 @import url(./blocks/table/table.css);
 @import url(./blocks/table/__cell/table__cell.css);
@@ -60,12 +60,10 @@
 
 @import url(./blocks/kaufman/kaufman.css);
 @import url(./blocks/kaufman/__triangle/kaufman__triangle.css);
-@import url(./blocks/section/__title/_theme/section-title_theme_dark.css);
-@import url(./blocks/section/__subtitle/theme/section-subtitle_theme_dark.css);
+@import url(./blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(./blocks/table/_theme/table_theme_dark.css);
 @import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
-
-
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__columns/footer__columns.css);
@@ -84,7 +82,6 @@
 
 @import url(./blocks/rotation/rotation.css);
 @import url(./blocks/el-opaque/el-opaque.css);
-
 
 /*
 * {
