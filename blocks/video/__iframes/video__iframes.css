@@ -3,4 +3,7 @@
   margin: 50px auto -60px auto;
   display: flex;
   gap: 0 20px;
+
+  list-style-type: none;
+  padding: 0;
 }

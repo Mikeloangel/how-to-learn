@@ -6,4 +6,7 @@
   width: 920px;
   margin: auto;
   box-sizing: border-box;
+
+  list-style-type: none;
+  padding: 0;
 }
