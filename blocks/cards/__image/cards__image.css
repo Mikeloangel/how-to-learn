@@ -3,5 +3,7 @@
   height: 160px;
   border-radius: 100%;
   margin: 0 40px;
-  object-fit: cover;
+
+  -o-object-fit: cover;
+     object-fit: cover;
 }

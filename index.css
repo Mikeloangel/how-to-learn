@@ -1,5 +1,7 @@
 @import url(./vendor/normalize.css);
 
+/*@import url(./vendor/fonts.css);*/
+
 @import url(./blocks/page/page.css);
 
 @import url(./blocks/logo/logo.css);
@@ -82,6 +84,12 @@
 @import url(./blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(./blocks/resources/__logo/resources__logo.css);
 @import url(./blocks/resources/__link/resources__link.css);
+
+@import url(./blocks/feedback/feedback.css);
+@import url(./blocks/feedback/__form/feedback__form.css);
+@import url(./blocks/feedback/__mail/feedback__mail.css);
+@import url(./blocks/feedback/__text/feedback__text.css);
+@import url(./blocks/feedback/__button/feedback__button.css);
 
 @import url(./blocks/rotation/rotation.css);
 @import url(./blocks/el-opaque/el-opaque.css);

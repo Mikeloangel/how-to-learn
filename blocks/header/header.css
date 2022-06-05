@@ -5,8 +5,15 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
   position: relative;
   background-color: #f2f2f2;
 

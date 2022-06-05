@@ -7,8 +7,6 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Fira Sans','Helvetica Neue', Arial, sans-serif;
 
- /* display: flex;
-  flex-direction: column;/**/
 }

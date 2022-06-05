@@ -3,6 +3,10 @@
   margin: auto;
   padding: 60px 0 40px 0;
   min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

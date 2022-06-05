@@ -1,10 +1,17 @@
+
 .el-opaque {
   opacity: 1;
 }
 
 .el-opaque:hover {
   opacity: 0.5;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
   transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }

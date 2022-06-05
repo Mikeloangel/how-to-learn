@@ -1,15 +1,33 @@
-@keyframes rotation{
+
+@-webkit-keyframes rotation{
   from{
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to{
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation{
+  from{
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
 .rotation{
-  animation-name: rotation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  -webkit-animation-name: rotation;
+          animation-name: rotation;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }

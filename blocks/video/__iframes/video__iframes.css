@@ -1,7 +1,21 @@
+
 .video__iframes{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+
   margin: 50px auto -60px auto;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+
+  -ms-flex-wrap: wrap;
+
+      flex-wrap: wrap;
+
   gap: 0 20px;
 
   list-style-type: none;
