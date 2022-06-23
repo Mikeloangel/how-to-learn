@@ -24,6 +24,7 @@
 @import url(./blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(./blocks/techniques/techniques.css);
+@import url(./blocks/techniques/__cards/techniques__cards.css);
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/cards/__item/cards__item.css);
 @import url(./blocks/cards/__image/cards__image.css);
@@ -75,6 +76,7 @@
 @import url(./blocks/footer/__column/footer__column.css);
 @import url(./blocks/footer/__author/footer__author.css);
 @import url(./blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(./blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(./blocks/footer/__column-links/footer__column-links.css);
 @import url(./blocks/footer/__column-link/footer__column-link.css);
 @import url(./blocks/footer/__column-heading/footer__column-heading.css);
@@ -94,7 +96,5 @@
 @import url(./blocks/rotation/rotation.css);
 @import url(./blocks/el-opaque/el-opaque.css);
 
-/*
-* {
-  box-shadow: inset 0 0 5px;
-}/**/
+
+/* * {  box-shadow: inset 0 0 2px red;} */

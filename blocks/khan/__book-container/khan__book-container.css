@@ -2,14 +2,15 @@
   margin: 68px 0 0 0;
   padding: 0;
 
-  display: -webkit-box;
-
-  display: -ms-flexbox;
-
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   gap: 0 48px;
+}
+
+@media screen and (max-width:766px) {
+  .khan__book-container{
+    flex-direction: column;
+    gap: 48px;
+  }
+
 }

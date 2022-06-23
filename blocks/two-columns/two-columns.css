@@ -11,3 +11,17 @@
 
   margin: auto;
 }
+
+@media screen and (max-width:1250px){
+  .two-columns{
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:550px){
+  .two-columns{
+    flex-direction: column;
+    width: calc(100% - 64px);
+  }
+}

@@ -1,4 +1,7 @@
 .video__iframe{
-  width: 515px;
-  height: 316px;
+  /* width: 515px; */
+  /* height: 316px; */
+  /* aspect-ratio: 1.6; */
+  width: 100%;
+  aspect-ratio: 1.6;
 }

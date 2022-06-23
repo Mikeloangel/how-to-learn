@@ -3,7 +3,31 @@
   position: absolute;
   bottom:0;
   right: 0;
-  width: 765px;
-  height: 608px;
+
+  max-width: 765px;
+  height: auto;
+  /* width: 765px; */
+  /* height: 608px; */
   z-index: 11;
+}
+
+@media screen and (max-width:1250px) {
+  .header__main-illustration{
+    max-width: 600px;
+  }
+}
+
+/* increasing contrast between background image and text
+also adding shadows for text of section */
+@media screen and (max-width:766px) {
+  .header__main-illustration{
+    filter: saturate(.8);
+  }
+}
+
+@media screen and (max-width:550px){
+  .header__main-illustration{
+    right: unset;
+    left: -10%;
+  }
 }

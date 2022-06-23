@@ -8,3 +8,16 @@
   background-color: #f2f2f2;
   position: relative;
 }
+
+@media screen and (max-width: 1250px) {
+  .feynman{
+    background-size: max(500px, 60vw) auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .feynman{
+    min-height: 700px;
+    background-position: bottom 0 right -30px;
+  }
+}

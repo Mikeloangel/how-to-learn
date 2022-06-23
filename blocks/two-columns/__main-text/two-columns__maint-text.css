@@ -2,3 +2,16 @@
   width: 80%;
   min-width: 784px;
 }
+
+@media screen and (max-width:1250px){
+  .two-columns__main-text{
+    min-width: unset;
+
+  }
+}
+
+@media screen and (max-width:550px){
+  .two-columns__main-text{
+    width: 100%;
+  }
+}

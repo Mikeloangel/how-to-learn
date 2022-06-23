@@ -8,3 +8,14 @@
   font-weight: normal;
 }
 
+@media screen and (max-width:766px){
+  .section-subtitle{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:550px){
+  .section-subtitle{
+    font-size: 20px;
+  }
+}

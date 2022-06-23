@@ -3,10 +3,21 @@
   margin: auto;
   padding: 60px 0 40px 0;
   min-height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  gap: 20px;
 }
+
+@media screen and (max-width: 550px) {
+  .footer__columns{
+    flex-wrap: wrap;
+  }
+}
+/*
+@media screen and (max-width: 375px) {
+  .footer__columns{
+    align-items: center;
+    justify-content: center;
+  }
+} */

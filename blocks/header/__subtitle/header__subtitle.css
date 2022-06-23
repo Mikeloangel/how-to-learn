@@ -11,3 +11,22 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width:1250px){
+  .header__subtitle{
+    left: 32px;
+  }
+}
+@media screen and (max-width:766px){
+  .header__subtitle{
+    text-shadow: -1px 1px 4px #fff;
+  }
+}
+
+@media screen and (max-width:550px){
+  .header__subtitle{
+    position: relative;
+    width: unset;
+    max-width: 80%;
+  }
+}
+

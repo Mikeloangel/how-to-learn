@@ -1,3 +1,10 @@
 .khan__figure{
   margin-left: 0;
 }
+
+@media screen and (max-width:766px) {
+  .khan__figure{
+    margin: 0;
+    width: 100%;
+  }
+}

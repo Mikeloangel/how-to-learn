@@ -1,4 +1,6 @@
 .table__cell_theme_dark {
   color: white;
-  width: 200px;
+  /* width: 200px; */
+  width: 95%;
+  margin: 0 auto;
 }

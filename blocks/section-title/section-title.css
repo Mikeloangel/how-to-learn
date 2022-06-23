@@ -7,3 +7,16 @@
   font-size: 60px;
   font-weight: 700;
 }
+
+@media screen and (max-width:766px){
+  .section-title{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:550px){
+  .section-title{
+    width: 100%;
+    font-size: 46px;
+  }
+}

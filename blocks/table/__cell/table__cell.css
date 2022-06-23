@@ -1,5 +1,6 @@
 
 .table__cell {
-  width: 250px;
+  /* max-width: 250px; */
+  width: 100%;
   padding: 0;
 }

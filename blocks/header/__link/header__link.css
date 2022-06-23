@@ -8,5 +8,5 @@
 }
 
 .header__link::after{
-  content: ' →';
+  content: '→';
 }

@@ -3,8 +3,26 @@
   position: absolute;
   right: 0;
   top: 64px;
-  height: 568px;
+  /* height: 568px; */
   width: 568px;
+  aspect-ratio: 1;
   background-color: #2f80ed;
   z-index: 10;
 }
+
+@media screen and (max-width:1250px) {
+  .header__square-pic{
+    width:  400px;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width:766px) {
+  .header__square-pic{
+    width: 300px;
+    filter: saturate(.8);
+  }
+}
+
+
+

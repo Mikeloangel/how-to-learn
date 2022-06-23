@@ -8,6 +8,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-shadow: 1px 1px 3px #fff , -1px -1px 3px #fff;
 }
 
 .feynman__link:hover{
@@ -16,4 +17,16 @@
 
 .feynman__link::after{
   content: ' →';
+}
+
+@media screen and (max-width: 550px) {
+  .feynman__link{
+    top: unset;
+    right: unset;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+  }
 }

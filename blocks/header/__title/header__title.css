@@ -2,7 +2,38 @@
   padding-left: 64px;
   width: 730px;
   z-index: 20;
-  line-height: 96px;
+  /* line-height: 96px; */
+  line-height: .9;
   font-size: 102px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1250px) {
+  .header__title{
+    font-size: 76px;
+    max-width: 650px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width:766px){
+  .header__title{
+    text-shadow: -2px 2px 2px #fff;
+  }
+}
+
+@media screen and (max-width:550px){
+  .header__title{
+    /* box-shadow: inset 0 0 3px red; */
+    /* padding-left: 0; */
+    max-width: calc(100% - 32px);
+    font-size: 56px;
+  }
+}
+
+
+@media screen and (max-width:375px){
+  .header__title{
+    font-size: 42px;
+  }
 }

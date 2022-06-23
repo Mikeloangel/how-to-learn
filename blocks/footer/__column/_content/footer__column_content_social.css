@@ -1,0 +1,9 @@
+/* .footer__column_content_social{
+  width: 350px;
+} */
+
+@media screen and (max-width:1110px) {
+  .footer__column_content_social{
+    width: 250px;
+  }
+}
